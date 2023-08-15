@@ -48,7 +48,7 @@ export default function Body({ totalPrice, setTotalPrice, money }) {
             }) :  <p className='text-red-500 mx-auto'>Ürün Aradığnız kriterlerde ürün bununamadı.</p> }
       </div>
 
-      <Basket basket={basket} totalPrice={totalPrice} animateBasket={animateBasket} setAnimateBasket={setAnimateBasket} />
+      <Basket basket={basket} totalPrice={totalPrice} animateBasket={animateBasket} setAnimateBasket={setAnimateBasket} setBasket={setBasket} />
 
     </div>
   )
