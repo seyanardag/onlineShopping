@@ -1,5 +1,6 @@
 [onlineShopping](https://github.com/seyanardag/onlineShopping/assets/101904156/aedf1652-d565-4808-8369-1dfc5b093ce7)
 
+![onlineShopping](https://github.com/seyanardag/onlineShopping/assets/101904156/50990fc5-9a62-483c-8379-937ebc54be6b)
 
 # Getting Started with Create React App!
 
