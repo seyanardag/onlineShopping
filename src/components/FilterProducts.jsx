@@ -20,7 +20,7 @@ export default function FilterProducts({ setMinPriceFilter, setMaxPriceFilter })
     }
 
     return (
-        <div className='myShadow1İPTAL basis-1/6 min-w-[250px] sticky top-0 h-screen bg-gray-700 text-slate-50' >
+        <div className='myShadow1İPTAL basis-1/6 min-w-[250px] sticky top-0 h-screen bg-gray-900 text-slate-50' >
 
             <div className='filterInputs font-bold'>
                 <h3>ÜCRET</h3>
@@ -40,7 +40,7 @@ export default function FilterProducts({ setMinPriceFilter, setMaxPriceFilter })
                         min={0} />
 
                 </div>
-                <button onClick={handleUygula} className='rounded-sm bg-green-400 text-gray-800 py-2 w-full tracking-widest'>UYGULA</button>
+                <button onClick={handleUygula} className='rounded-sm bg-green-400     text-gray-900 hover:text-slate-700 active:translate-x-[1px] active:translate-y-[1px] py-2 w-full tracking-widest'>UYGULA</button>
 
             </div>
         </div>

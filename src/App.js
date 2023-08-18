@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header';
 import Body from './components/Body';
 import { useState } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './pages/Navbar';
+import {Outlet} from 'react-router-dom'
 
 function App() {
   
@@ -11,9 +12,10 @@ function App() {
 
   return (
     <div className="App bg-slate-500">
-        <Navbar/>
+        {/* <Navbar/> */}
         {/* <Header money={money} totalPrice={totalPrice}/> */}
         <Body money={money} totalPrice={totalPrice} setTotalPrice={setTotalPrice}  />
+        <Outlet/>
     </div>
   );
 }
